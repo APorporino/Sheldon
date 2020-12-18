@@ -1,2 +1,2 @@
-sheldon: shell.c
-	gcc -o sheldon shell.c
+sheldon: shell.c internal.c
+	gcc -o sheldon shell.c internal.c
